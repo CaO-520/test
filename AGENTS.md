@@ -1,35 +1,35 @@
-# Agent Instructions
+# Agent 工作说明
 
-These instructions are for AI coding agents working in this repository.
+这份文件用于指导在本仓库中工作的 AI 编程助手。
 
-## Communication
+## 沟通方式
 
-- Reply in Chinese by default, unless the user asks for another language.
-- Explain GitHub, Git, and coding concepts in beginner-friendly language.
-- Keep progress updates and final summaries concise and clear.
+- 默认使用中文回复，除非用户明确要求使用其他语言。
+- 解释 GitHub、Git 和编程概念时，尽量使用适合新手理解的表达。
+- 过程更新和最终总结保持简洁、清楚。
 
-## Project Context
+## 项目上下文
 
-- Read `README.md` before making changes.
-- If `PROJECT_CONTEXT.md` exists, read it before making changes.
-- If `TODO.md` exists, use it to understand pending work, but confirm before doing large or risky tasks.
+- 修改文件前，先阅读 `README.md`。
+- 如果存在 `PROJECT_CONTEXT.md`，修改文件前也要先阅读它。
+- 如果存在 `TODO.md`，可以用它了解待办事项；但遇到大范围或有风险的任务时，应先和用户确认。
 
-## Editing Rules
+## 编辑规则
 
-- Keep changes small and focused on the user's request.
-- Do not delete or rewrite existing user content unless the user clearly asks for it.
-- Prefer simple Markdown and plain text for documentation files.
-- Use ASCII punctuation where practical, unless the surrounding file already uses Chinese punctuation.
+- 改动应尽量小，并聚焦在用户当前请求上。
+- 不要删除或重写用户已有内容，除非用户明确要求。
+- 文档文件优先使用简单的 Markdown 和纯文本。
+- 如果文件已经主要使用中文，可以使用中文标点；否则保持与原文件风格一致。
 
-## GitHub Workflow
+## GitHub 工作流程
 
-- When changing files through GitHub, use clear commit messages.
-- If the user says things like "提交", "保存到 GitHub", "完成了", or "上传", commit the requested changes to GitHub.
-- Before making broad structural changes, briefly explain what will change.
+- 通过 GitHub 修改文件时，使用清楚的提交信息。
+- 如果用户说“提交”“保存到 GitHub”“完成了”“上传”等，应把对应改动提交到 GitHub。
+- 在进行大范围结构调整前，先简要说明将要修改什么。
 
-## Suggested Files
+## 推荐文件用途
 
-- `README.md`: public project description and usage notes.
-- `AGENTS.md`: instructions for AI agents.
-- `PROJECT_CONTEXT.md`: long-term project background and decisions.
-- `TODO.md`: pending tasks and next steps.
+- `README.md`：面向读者的项目介绍和使用说明。
+- `AGENTS.md`：给 AI 编程助手看的工作规则。
+- `PROJECT_CONTEXT.md`：长期项目背景、决策和偏好记录。
+- `TODO.md`：待办事项和下一步计划。
